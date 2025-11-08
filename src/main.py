@@ -4,7 +4,7 @@ import cv2
 print("✅ Libraries loaded successfully!")
 
 # Load YOLOv8 small model
-model = YOLO("yolov8n.pt")
+model = YOLO("yolov8l.pt")
 
 # Run explicit prediction
 results = model.predict(source="https://ultralytics.com/images/bus.jpg", save=True, conf=0.25)
